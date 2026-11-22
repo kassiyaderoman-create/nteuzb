@@ -1,0 +1,155 @@
+[
+  {
+    "title": "Muxlislar kontenti uchun rasmiy qoidalar",
+    "description": "Hotta Studio NTE haqida video, rasm va boshqa muxlis ishlari uchun foydalanish shartlarini e’lon qildi.",
+    "label": "E’lon",
+    "date": "2026-11-20",
+    "url": "https://nte.perfectworld.com/en/article/news/gamebroad/20261113/265053.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/characters/zero.webp"
+  },
+  {
+    "title": "16-noyabrdagi akkauntlar bo‘yicha xabarnoma",
+    "description": "Rasmiy xabarda qoidalarni buzgan akkauntlarga ko‘rilgan choralar haqida ma’lumot berilgan.",
+    "label": "E’lon",
+    "date": "2026-11-16",
+    "url": "https://nte.perfectworld.com/en/article/news/gamebroad/20261116/265063.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/anomaly.webp"
+  },
+  {
+    "title": "Marketing hamkorligi uchun aloqa kanallari",
+    "description": "NTE jamoasi hamkorlik takliflari yuboriladigan rasmiy kanallarni ko‘rsatdi.",
+    "label": "E’lon",
+    "date": "2026-11-12",
+    "url": "https://nte.perfectworld.com/en/article/news/gamebroad/20261112/265030.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/city.webp"
+  },
+  {
+    "title": "1.5 yangilanishi — Elyms va yangi hikoya",
+    "description": "Elyms, yangi Arc, «Meet Me in the Data Stream» syujet bo‘limi va yangi tadbirlar haqida rasmiy izohlar.",
+    "label": "Yangilanish",
+    "date": "2026-11-09",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/version-15.webp"
+  },
+  {
+    "title": "9-noyabrdagi akkauntlar bo‘yicha xabarnoma",
+    "description": "NTE jamoasining akkauntlar bo‘yicha rasmiy choralari haqidagi xabar.",
+    "label": "E’lon",
+    "date": "2026-11-09",
+    "url": "https://nte.perfectworld.com/en/article/news/gamebroad/20261109/264938.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/anomaly.webp"
+  },
+  {
+    "title": "2-noyabrdagi akkauntlar bo‘yicha xabarnoma",
+    "description": "O‘yin qoidalarini buzgan akkauntlarga nisbatan ko‘rilgan choralar bo‘yicha xabar.",
+    "label": "E’lon",
+    "date": "2026-11-02",
+    "url": "https://nte.perfectworld.com/en/article/news/gamebroad/20261102/264852.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/anomaly.webp"
+  },
+  {
+    "title": "1.5 versiyasi uchun ijodiy tanlov",
+    "description": "NTE mavzusida ijod qiladigan muxlislar uchun e’lon. Sana va qatnashish shartlarini rasmiy sahifadan tekshiring.",
+    "label": "Tadbir",
+    "date": "2026-11-04",
+    "url": "https://nte.perfectworld.com/en/article/news/gameevent/20261104/264885.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/ijod-15.webp"
+  },
+  {
+    "title": "21-oktabrdagi server texnik ishlari",
+    "description": "O‘tgan texnik ishlar bo‘yicha vaqt va xizmat xabarnomasi.",
+    "label": "E’lon",
+    "date": "2026-10-19",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261019/264675.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/server.webp"
+  },
+  {
+    "title": "1.4 yangilanishi — For Whom the Verses Mourn",
+    "description": "1.4 versiyasidagi yangi kontent va o‘zgarishlar bo‘yicha rasmiy izohlar.",
+    "label": "Yangilanish",
+    "date": "2026-09-29",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20260929/264409.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/version-14.webp"
+  },
+  {
+    "title": "NTE × Porsche ijodiy tanlovi",
+    "description": "1.4 versiyasi doirasida o‘tkazilgan muxlislar ijodiy tanlovi arxivi.",
+    "label": "Tadbir",
+    "date": "2026-09-29",
+    "url": "https://nte.perfectworld.com/en/article/news/gameevent/20260929/264427.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/porsche.webp"
+  },
+  {
+    "title": "Rasmiy to‘lov markazidagi to‘plamlar",
+    "description": "To‘lov markazida e’lon qilingan maxsus to‘plamlar haqida xabar.",
+    "label": "E’lon",
+    "date": "2026-09-24",
+    "url": "https://nte.perfectworld.com/en/article/news/gameevent/20260924/264365.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/tolov.webp"
+  },
+  {
+    "title": "Asia va SEA serverlaridagi texnik ishlar",
+    "description": "16-sentabrga rejalangan o‘tgan texnik ishlar xabarnomasi.",
+    "label": "E’lon",
+    "date": "2026-09-15",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20260914/264134.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/server.webp"
+  },
+  {
+    "title": "9-sentabrdagi server texnik ishlari",
+    "description": "Serverga xizmat ko‘rsatish bo‘yicha o‘tgan xabarnoma.",
+    "label": "E’lon",
+    "date": "2026-09-08",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20260908/263947.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/server.webp"
+  },
+  {
+    "title": "NTE 1.2 ijodiy tadbiri",
+    "description": "1.2 versiyasidagi muxlislar ishlari tanlovi arxivi.",
+    "label": "Tadbir",
+    "date": "2026-07-08",
+    "url": "https://nte.perfectworld.com/en/article/news/gameevent/20260703/262998.html",
+    "source": "Rasmiy NTE xabari",
+    "image": "/assets/news/ijod-12.webp"
+  },
+  {
+    "title": "Hethereau xaritasi haqida jamoa muhokamasi",
+    "description": "nteuzb kanali kelgusi xarita kengayishlari va o‘yin hajmi haqida muhokama ochdi.",
+    "label": "Jamoa",
+    "date": "2026-11-20",
+    "url": "https://t.me/nteuzb/142",
+    "source": "Telegram postini ochish",
+    "image": "/assets/news/xarita.webp"
+  },
+  {
+    "title": "NTE The Game Awards’da nomzod",
+    "description": "nteuzb kanali o‘yinning nomzodligi va ovoz berish havolasini ulashdi.",
+    "label": "Jamoa",
+    "date": "2026-11-18",
+    "url": "https://t.me/nteuzb/140",
+    "source": "Telegram postini ochish",
+    "image": "/assets/news/game-awards.webp"
+  },
+  {
+    "title": "Jamoa o‘zbekcha videoqo‘llanma tayyorlamoqda",
+    "description": "Kanalda o‘yinni boshlash, Fons, personajlar va grafika sozlamalari bo‘yicha reja e’lon qilindi.",
+    "label": "Jamoa",
+    "date": "2026-11-17",
+    "url": "https://t.me/nteuzb/138",
+    "source": "Telegram postini ochish",
+    "image": "/assets/news/videoqollanma.webp"
+  }
+]

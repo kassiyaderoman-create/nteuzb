@@ -1,0 +1,7 @@
+/dist/server/
+
+/node_modules/
+/.netlify/
+/.netlify-site/
+/.env
+/.env.local
