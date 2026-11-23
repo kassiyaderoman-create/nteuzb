@@ -1,0 +1,796 @@
+{
+  "characters": [
+    {
+      "id": "char_1003",
+      "title": "Sakiri",
+      "url": "https://nte.th.gl/db/characters/char_1003",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2774,
+        "y": -2708
+      }
+    },
+    {
+      "id": "char_1023",
+      "title": "Baicang",
+      "url": "https://nte.th.gl/db/characters/char_1023",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -332,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1033",
+      "title": "Adler",
+      "url": "https://nte.th.gl/db/characters/char_1033",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -464,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1036",
+      "title": "Zankou",
+      "url": "https://nte.th.gl/db/characters/char_1036",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -530,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1004",
+      "title": "Lacrimosa",
+      "url": "https://nte.th.gl/db/characters/char_1004",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2840,
+        "y": -2708
+      }
+    },
+    {
+      "id": "char_1054",
+      "title": "Daffodill",
+      "url": "https://nte.th.gl/db/characters/char_1054",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -926,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1074",
+      "title": "Exe",
+      "url": "https://nte.th.gl/db/characters/char_1074",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1322,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1008",
+      "title": "Skia",
+      "url": "https://nte.th.gl/db/characters/char_1008",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1025",
+      "title": "Hathor",
+      "url": "https://nte.th.gl/db/characters/char_1025",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -398,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1057",
+      "title": "Akane Rin",
+      "url": "https://nte.th.gl/db/characters/char_1057",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1058,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1071",
+      "title": "Chaos",
+      "url": "https://nte.th.gl/db/characters/char_1071",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1190,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1010",
+      "title": "Nanally",
+      "url": "https://nte.th.gl/db/characters/char_1010",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -68,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1019",
+      "title": "Mint",
+      "url": "https://nte.th.gl/db/characters/char_1019",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -134,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1055",
+      "title": "Jiuyuan",
+      "url": "https://nte.th.gl/db/characters/char_1055",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -992,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1072",
+      "title": "Linko",
+      "url": "https://nte.th.gl/db/characters/char_1072",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2906,
+        "y": -2708
+      }
+    },
+    {
+      "id": "char_1075",
+      "title": "Iroi",
+      "url": "https://nte.th.gl/db/characters/char_1075",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -200,
+        "y": -1454
+      }
+    },
+    {
+      "id": "char_1020",
+      "title": "Haniel",
+      "url": "https://nte.th.gl/db/characters/char_1020",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -200,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1039",
+      "title": "Fadia",
+      "url": "https://nte.th.gl/db/characters/char_1039",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -596,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1042",
+      "title": "Blackbird",
+      "url": "https://nte.th.gl/db/characters/char_1042",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -662,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1070",
+      "title": "Aurelia",
+      "url": "https://nte.th.gl/db/characters/char_1070",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1124,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1021",
+      "title": "Edgar",
+      "url": "https://nte.th.gl/db/characters/char_1021",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -266,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1046",
+      "title": "Zero",
+      "url": "https://nte.th.gl/db/characters/char_1046",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -728,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1052",
+      "title": "Hotori",
+      "url": "https://nte.th.gl/db/characters/char_1052",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -860,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1073",
+      "title": "Chiz",
+      "url": "https://nte.th.gl/db/characters/char_1073",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1256,
+        "y": -2774
+      }
+    },
+    {
+      "id": "char_1076",
+      "title": "Shinku",
+      "url": "https://nte.th.gl/db/characters/char_1076",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2576,
+        "y": -1454
+      }
+    },
+    {
+      "id": "char_1090",
+      "title": "Elyms",
+      "url": "https://nte.th.gl/db/characters/char_1090",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1388,
+        "y": -2774
+      }
+    }
+  ],
+  "arcs": [
+    {
+      "id": "arc_fork_yuren",
+      "title": "Umbrella",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_yuren",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1454,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_bopu",
+      "title": "Cosmos Daze, Wild Reverie",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_bopu",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1520,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_jiaojuan",
+      "title": "Shiny Days",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_jiaojuan",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1652,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_wuhuakuang",
+      "title": "The Forgotten",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_wuhuakuang",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1718,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_oulaquantao",
+      "title": "Oraora!",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_oulaquantao",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1850,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_lingganzhongjiezhe",
+      "title": "Mind Royale",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_lingganzhongjiezhe",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1916,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_BitterCake",
+      "title": "The Good, The Bad, The Bitter",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_BitterCake",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2312,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_tuansanlang",
+      "title": "The Great Thief",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_tuansanlang",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Kite",
+      "title": "Watch Your Heads!",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Kite",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -68,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_PaperPlane",
+      "title": "Clear Skies",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_PaperPlane",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -134,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_spider",
+      "title": "Failing You, Heavy in My Heart",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_spider",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -200,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_yaodao",
+      "title": "Drawn Blade",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_yaodao",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -266,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_koinobori",
+      "title": "A Time Will Come",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_koinobori",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -332,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_snowman",
+      "title": "The Fools' Spring",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_snowman",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -398,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Crowbar",
+      "title": "Time Bandit",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Crowbar",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -794,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Castle",
+      "title": "Call of the Twisted City",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Castle",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -860,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_mofeikesi",
+      "title": "Good Boy's Grand Adventure",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_mofeikesi",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1586,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_jingmotingyuan",
+      "title": "Camellia Society",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_jingmotingyuan",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1784,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_rishi",
+      "title": "Day Off",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_rishi",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1982,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_TigerTally",
+      "title": "Ready-Ready",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_TigerTally",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2444,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_BitGame",
+      "title": "Blow up the Crowd",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_BitGame",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2510,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_BlackBook",
+      "title": "Youthful Fantasy",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_BlackBook",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2576,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_mamen",
+      "title": "Contemplative Cat",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_mamen",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2642,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_Nakupeda",
+      "title": "Your Happiness is Priceless",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Nakupeda",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2708,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_wushoutieyu",
+      "title": "Raging Flames",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_wushoutieyu",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2774,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_Arachne",
+      "title": "Eternal Waltz",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Arachne",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2840,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_PoliceRat",
+      "title": "Hethereau's Keeper",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_PoliceRat",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2906,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_BoxingCandy",
+      "title": "Fluff of Fortitude",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_BoxingCandy",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -464,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_KnightCandy",
+      "title": "Fluff of Ferocity",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_KnightCandy",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -530,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_ThiefCandy",
+      "title": "Fluff of Finesse",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_ThiefCandy",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -596,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_MotorCandy",
+      "title": "Fluff of Fleetness",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_MotorCandy",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -662,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_BlastCandy",
+      "title": "Fluff of Fearlessness",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_BlastCandy",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -728,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Butterfly",
+      "title": "Reality Refuge",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Butterfly",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -926,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_NestBird",
+      "title": "Tears Beneath the Mask",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_NestBird",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -992,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Whale",
+      "title": "Song of the Whale",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Whale",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1058,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Time",
+      "title": "Marching Beyond Time",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Time",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1124,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Rose",
+      "title": "The Last Rose",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Rose",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1190,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_worldrain",
+      "title": "The Rain That Shook the World",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_worldrain",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1256,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_moon",
+      "title": "Stellar Veil",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_moon",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1322,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_GoldWool",
+      "title": "What's Desired",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_GoldWool",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1388,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_LunarPhase",
+      "title": "Blushing Mirage",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_LunarPhase",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1454,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_Door",
+      "title": "The Wrong Gate",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Door",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1520,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_DemonBlade",
+      "title": "Ravenous Blade",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_DemonBlade",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1586,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_GoldRecord",
+      "title": "Voice of the Voyager",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_GoldRecord",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1652,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_twinbirds",
+      "title": "Crime and Punishment",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_twinbirds",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1718,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_prism",
+      "title": "Far Side of the Moon",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_prism",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1784,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_elyms",
+      "title": "Echoes on Hold",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_elyms",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1850,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_exe",
+      "title": "Dotted Horizon",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_exe",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -1916,
+        "y": -2840
+      }
+    },
+    {
+      "id": "arc_fork_dustbin",
+      "title": "Dangerous Game",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_dustbin",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2048,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_nonos",
+      "title": "First Step to Success",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_nonos",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2114,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_vine",
+      "title": "Be Happy",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_vine",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2180,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_Prokaryon",
+      "title": "Us.",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_Prokaryon",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2246,
+        "y": -2774
+      }
+    },
+    {
+      "id": "arc_fork_appliance",
+      "title": "\"Real Music\"",
+      "url": "https://nte.th.gl/db/arcs/arc_fork_appliance",
+      "icon": {
+        "sprite": "https://cdn.th.gl/neverness-to-everness/icons/icons.ff2909aa7c2778d1cc512f3d3b2fbb17.webp",
+        "x": -2378,
+        "y": -2774
+      }
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "characters": [
+    {
+      "id": "char_1033",
+      "title": "Adler",
+      "url": "/personaj-adler.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-adler.html\"><span class=\"roster-art\"><img src=\"/assets/characters/adler.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Adler</h2><p>O‘zbekcha jihozlash tavsiyasi</p></div></a>"
+    },
+    {
+      "id": "char_1057",
+      "title": "Akane Rin",
+      "url": "/personaj-akane-rin.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-akane-rin.html\"><img src=\"/assets/characters/akane-rin.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Akane Rin</h2></div></a>"
+    },
+    {
+      "id": "char_1070",
+      "title": "Aurelia",
+      "url": "/personaj-aurelia.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-aurelia.html\"><span class=\"roster-art\"><img src=\"/assets/characters/aurelia.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Aurelia</h2></div></a>"
+    },
+    {
+      "id": "char_1023",
+      "title": "Baicang",
+      "url": "/personaj-baicang.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-baicang.html\"><img src=\"/assets/characters/baicang.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Baicang</h2></div></a>"
+    },
+    {
+      "id": "char_1042",
+      "title": "Blackbird",
+      "url": "/personaj-blackbird.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-blackbird.html\"><img src=\"/assets/characters/blackbird.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Blackbird</h2></div></a>"
+    },
+    {
+      "id": "char_1071",
+      "title": "Chaos",
+      "url": "/personaj-chaos.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-chaos.html\"><img src=\"/assets/characters/chaos.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Chaos</h2></div></a>"
+    },
+    {
+      "id": "char_1073",
+      "title": "Chiz",
+      "url": "/personaj-chiz.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-chiz.html\"><img src=\"/assets/characters/chiz.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Chiz</h2></div></a>"
+    },
+    {
+      "id": "char_1054",
+      "title": "Daffodill",
+      "url": "/personaj-daffodill.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-daffodill.html\"><img src=\"/assets/characters/daffodill.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Daffodill</h2></div></a>"
+    },
+    {
+      "id": "char_1021",
+      "title": "Edgar",
+      "url": "/personaj-edgar.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-edgar.html\"><span class=\"roster-art\"><img src=\"/assets/characters/edgar.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Edgar</h2></div></a>"
+    },
+    {
+      "id": "char_1090",
+      "title": "Elyms",
+      "url": "/personaj-elyms.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-elyms.html\"><img src=\"/assets/characters/elyms.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Elyms</h2></div></a>"
+    },
+    {
+      "id": "char_1074",
+      "title": "Exe",
+      "url": "/personaj-exe.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-exe.html\"><span class=\"roster-art\"><img src=\"/assets/characters/exe.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Exe</h2></div></a>"
+    },
+    {
+      "id": "char_1039",
+      "title": "Fadia",
+      "url": "/personaj-fadia.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-fadia.html\"><img src=\"/assets/characters/fadia.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Fadia</h2></div></a>"
+    },
+    {
+      "id": "char_1020",
+      "title": "Haniel",
+      "url": "/personaj-haniel.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-haniel.html\"><span class=\"roster-art\"><img src=\"/assets/characters/haniel.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Haniel</h2><p>O‘zbekcha jihozlash tavsiyasi</p></div></a>"
+    },
+    {
+      "id": "char_1025",
+      "title": "Hathor",
+      "url": "/personaj-hathor.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-hathor.html\"><img src=\"/assets/characters/hathor.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Hathor</h2></div></a>"
+    },
+    {
+      "id": "char_1052",
+      "title": "Hotori",
+      "url": "/personaj-hotori.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-hotori.html\"><img src=\"/assets/characters/hotori.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Hotori</h2></div></a>"
+    },
+    {
+      "id": "char_1075",
+      "title": "Iroi",
+      "url": "/personaj-iroi.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-iroi.html\"><img src=\"/assets/characters/iroi.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Iroi</h2></div></a>"
+    },
+    {
+      "id": "char_1055",
+      "title": "Jiuyuan",
+      "url": "/personaj-jiuyuan.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-jiuyuan.html\"><img src=\"/assets/characters/jiuyuan.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Jiuyuan</h2></div></a>"
+    },
+    {
+      "id": "char_1004",
+      "title": "Lacrimosa",
+      "url": "/personaj-lacrimosa.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-lacrimosa.html\"><img src=\"/assets/characters/lacrimosa.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Lacrimosa</h2></div></a>"
+    },
+    {
+      "id": "char_1072",
+      "title": "Linko",
+      "url": "/personaj-linko.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-linko.html\"><img src=\"/assets/characters/linko.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Linko</h2></div></a>"
+    },
+    {
+      "id": "char_1019",
+      "title": "Mint",
+      "url": "/personaj-mint.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-mint.html\"><img src=\"/assets/characters/mint.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Mint</h2><p>O‘zbekcha jihozlash tavsiyasi</p></div></a>"
+    },
+    {
+      "id": "char_1010",
+      "title": "Nanally",
+      "url": "/personaj-nanally.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-nanally.html\"><img src=\"/assets/characters/nanally.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Nanally</h2></div></a>"
+    },
+    {
+      "id": "char_1003",
+      "title": "Sakiri",
+      "url": "/personaj-sakiri.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-sakiri.html\"><img src=\"/assets/characters/sakiri.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Sakiri</h2></div></a>"
+    },
+    {
+      "id": "char_1076",
+      "title": "Shinku",
+      "url": "/personaj-shinku.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-shinku.html\"><img src=\"/assets/characters/shinku.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Shinku</h2></div></a>"
+    },
+    {
+      "id": "char_1008",
+      "title": "Skia",
+      "url": "/personaj-skia.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-skia.html\"><span class=\"roster-art\"><img src=\"/assets/characters/skia.webp\" loading=\"lazy\" alt=\"\"></span><div class=\"card-body\"><h2>Skia</h2></div></a>"
+    },
+    {
+      "id": "char_1036",
+      "title": "Zankou",
+      "url": "/personaj-zankou.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-zankou.html\"><img src=\"/assets/characters/zankou.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Zankou</h2></div></a>"
+    },
+    {
+      "id": "char_1046",
+      "title": "Male Zero",
+      "url": "/personaj-zero.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-zero.html\"><img src=\"/assets/characters/zero.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Male Zero</h2></div></a>"
+    },
+    {
+      "id": "char_1046",
+      "title": "Female Zero",
+      "url": "/personaj-zero-female.html",
+      "markup": "<a class=\"card wiki-card roster-card\" data-catalog-item href=\"/personaj-zero-female.html\"><img src=\"/assets/characters/zero-female.webp\" loading=\"lazy\" alt=\"\"><div class=\"card-body\"><h2>Female Zero</h2></div></a>"
+    }
+  ],
+  "arcs": [
+    {
+      "id": "arc_fork_appliance",
+      "title": "\"Real Music\"",
+      "url": "/arclar.html?q=%22Real%20Music%22#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"&quot;Real Music&quot;\" data-location-category=\"B\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/0.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">&quot;Real Music&quot;</span><span class=\"arc-tag\">B · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>380</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 20%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikma yetkazadigan zararni oshiradi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/real-music\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_koinobori",
+      "title": "A Time Will Come",
+      "url": "/arclar.html?q=A%20Time%20Will%20Come#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"A Time Will Come\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/1.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">A Time Will Come</span><span class=\"arc-tag\">A · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 20%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Jamoada kamida uch xil Esper turi bo‘lsa, egasining hujum kuchi, himoyasi va joni oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/a-time-will-come\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_vine",
+      "title": "Be Happy",
+      "url": "/arclar.html?q=Be%20Happy#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Be Happy\" data-location-category=\"B\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/2.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Be Happy</span><span class=\"arc-tag\">B · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>316</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 30%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Raqibni yengganda egasining joni tiklanadi. Ta’sirning qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/be-happy\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_BitGame",
+      "title": "Blow up the Crowd",
+      "url": "/arclar.html?q=Blow%20up%20the%20Crowd#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Blow up the Crowd\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/3.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Blow up the Crowd</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi maydondan tashqarida turganda faol personajning hujum kuchini oshiradi. Egasi zarar yetkazsa, bonus to‘rt martagacha yig‘iladi. Egasi maydonga chiqqanda uning Psyche zarari oshadi, oddiy Psyche zarbalari esa bu bonusni o‘n martagacha yig‘adi. Personaj almashtirilganda bonus qayta boshlanadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/blow-up-the-crowd\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_LunarPhase",
+      "title": "Blushing Mirage",
+      "url": "/arclar.html?q=Blushing%20Mirage#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Blushing Mirage\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/4.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Blushing Mirage</span><span class=\"arc-tag\">S · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Yakuniy ko‘nikmadan keyin Cosmos zarari oshadi va hujum raqib himoyasining bir qismini chetlab o‘tadi. Qayta ishga tushsa, ta’sir muddati yangilanadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/blushing-mirage\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Castle",
+      "title": "Call of the Twisted City",
+      "url": "/arclar.html?q=Call%20of%20the%20Twisted%20City#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Call of the Twisted City\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/5.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Call of the Twisted City</span><span class=\"arc-tag\">A · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>395</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 37.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikma ishlatilgach, jon tiklash samarasi vaqtincha oshadi. Bonuslar ustma-ust yig‘ilmaydi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/call-of-the-twisted-city\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_jingmotingyuan",
+      "title": "Camellia Society",
+      "url": "/arclar.html?q=Camellia%20Society#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Camellia Society\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/6.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Camellia Society</span><span class=\"arc-tag\">S · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>666</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 12%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi zarar olmasdan jon yo‘qotsa, kritik zarari vaqtincha oshadi va bonus to‘rt martagacha yig‘iladi. Arc ko‘nikmasi joriy jonning bir qismini sarflab, tasodifiy ikki Incantation hujumidan birini ishlatadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/camellia-society\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_PaperPlane",
+      "title": "Clear Skies",
+      "url": "/arclar.html?q=Clear%20Skies#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Clear Skies\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/7.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Clear Skies</span><span class=\"arc-tag\">A · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol va yakuniy ko‘nikmalarning Anima zararini oshiradi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/clear-skies\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_mamen",
+      "title": "Contemplative Cat",
+      "url": "/arclar.html?q=Contemplative%20Cat#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Contemplative Cat\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/8.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Contemplative Cat</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 44%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasidagi Fons miqdori oshgan sari Cosmos zarari kuchayadi. Bonus o‘n martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/contemplative-cat\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_bopu",
+      "title": "Cosmos Daze, Wild Reverie",
+      "url": "/arclar.html?q=Cosmos%20Daze%2C%20Wild%20Reverie#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Cosmos Daze, Wild Reverie\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/9.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Cosmos Daze, Wild Reverie</span><span class=\"arc-tag\">A · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Yordamchi ko‘nikma ishlatilgach, egasining zarari vaqtincha oshadi. Qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/cosmos-daze-wild-reverie\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_twinbirds",
+      "title": "Crime and Punishment",
+      "url": "/arclar.html?q=Crime%20and%20Punishment#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Crime and Punishment\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/10.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Crime and Punishment</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Sikl kuchi va egasining Psyche zararini oshiradi. Yakuniy ko‘nikmadan keyin jamoaning kritik zarari oshadi, egasi qo‘shimcha kritik zarar bonusi oladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/crime-and-punishment\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_dustbin",
+      "title": "Dangerous Game",
+      "url": "/arclar.html?q=Dangerous%20Game#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Dangerous Game\" data-location-category=\"B\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/11.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Dangerous Game</span><span class=\"arc-tag\">B · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>380</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Bardoshni sindirish kuchi 96</dd></div></dl><p><strong>Passiv ta’siri:</strong> Raqib bardoshi kamaytirilganda egasining bardosh sindirish kuchi vaqtincha oshadi. Qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/dangerous-game\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_rishi",
+      "title": "Day Off",
+      "url": "/arclar.html?q=Day%20Off#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Day Off\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/12.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Day Off</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Energiya yig‘ish samarasi 33%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasining hujum kuchini oshiradi va tutilish yaratuvchi Arc ko‘nikmasini ochadi. Tutilish paytida yengilgan raqiblar yakuniy ko‘nikma energiyasini belgilangan chegaragacha tiklaydi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/day-off\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_exe",
+      "title": "Dotted Horizon",
+      "url": "/arclar.html?q=Dotted%20Horizon#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Dotted Horizon\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/13.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Dotted Horizon</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 48%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Kritik zarar va egasi chaqirgan yordamchilarning zararini oshiradi. Egasi Chaos zarari yetkazganda, maydondagi chaqirilgan yordamchilar uchun zarar bonusi o‘n martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/dotted-horizon\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_yaodao",
+      "title": "Drawn Blade",
+      "url": "/arclar.html?q=Drawn%20Blade#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Drawn Blade\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/14.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Drawn Blade</span><span class=\"arc-tag\">A · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>395</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 37.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Qaytarma zarba ishlatilganda hujum kuchiga bog‘liq qo‘shimcha Incantation zarari yetkazadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/drawn-blade\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_elyms",
+      "title": "Echoes on Hold",
+      "url": "/arclar.html?q=Echoes%20on%20Hold#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Echoes on Hold\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/15.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Echoes on Hold</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Yakuniy ko‘nikmadan keyin uchta qo‘shimcha zarba bajarilsa, jamoa raqib himoyasining bir qismini chetlab o‘tadi. Faol ko‘nikma jamoaga Cosmos qarshiligini yorib o‘tish bonusini beradi. Jangga kirishda bu ta’sirlar darhol faollashadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/echoes-on-hold\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Arachne",
+      "title": "Eternal Waltz",
+      "url": "/arclar.html?q=Eternal%20Waltz#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Eternal Waltz\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/16.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Eternal Waltz</span><span class=\"arc-tag\">S · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>424</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 41.25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Eng yuqori jon miqdorini oshiradi. Yakuniy ko‘nikmadan keyin ruhiy zarar vaqtincha oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/eternal-waltz\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_spider",
+      "title": "Failing You, Heavy in My Heart",
+      "url": "/arclar.html?q=Failing%20You%2C%20Heavy%20in%20My%20Heart#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Failing You, Heavy in My Heart\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/17.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Failing You, Heavy in My Heart</span><span class=\"arc-tag\">A · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Bardoshni sindirish kuchi 120</dd></div></dl><p><strong>Passiv ta’siri:</strong> Oddiy zarbalar sakkiztagacha yig‘im beradi. Yakuniy ko‘nikma ularni sarflab jamoa hujumini oshiradi. Sakkiztasi birdan sarflansa, bonus kuchayadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/failing-you-heavy-in-my-heart\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_prism",
+      "title": "Far Side of the Moon",
+      "url": "/arclar.html?q=Far%20Side%20of%20the%20Moon#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Far Side of the Moon\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/18.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Far Side of the Moon</span><span class=\"arc-tag\">S · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 48%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Kritik zarba ehtimoli va faol ko‘nikma zararini oshiradi. Faol ko‘nikmadan keyin oddiy hujum va Lakshana zarari vaqtincha oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/far-side-of-the-moon\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_nonos",
+      "title": "First Step to Success",
+      "url": "/arclar.html?q=First%20Step%20to%20Success#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"First Step to Success\" data-location-category=\"B\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/19.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">First Step to Success</span><span class=\"arc-tag\">B · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>380</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 20%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikma ishlatilganda egasining hujum kuchi vaqtincha oshadi. Qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/first-step-to-success\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_BlastCandy",
+      "title": "Fluff of Fearlessness",
+      "url": "/arclar.html?q=Fluff%20of%20Fearlessness#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Fluff of Fearlessness\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/20.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Fluff of Fearlessness</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 22%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Yakuniy ko‘nikmadan keyin hujum kuchi vaqtincha oshadi. Bonuslar ustma-ust yig‘ilmaydi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/fluff-of-fearlessness\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_KnightCandy",
+      "title": "Fluff of Ferocity",
+      "url": "/arclar.html?q=Fluff%20of%20Ferocity#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Fluff of Ferocity\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/21.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Fluff of Ferocity</span><span class=\"arc-tag\">S · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Kritik zarba tekkanda kritik zarar vaqtincha oshadi va o‘n martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/fluff-of-ferocity\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_ThiefCandy",
+      "title": "Fluff of Finesse",
+      "url": "/arclar.html?q=Fluff%20of%20Finesse#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Fluff of Finesse\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/22.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Fluff of Finesse</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Zarbadan aniq chap berilgach, egasining zarari vaqtincha oshadi va uch martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/fluff-of-finesse\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_MotorCandy",
+      "title": "Fluff of Fleetness",
+      "url": "/arclar.html?q=Fluff%20of%20Fleetness#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Fluff of Fleetness\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/23.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Fluff of Fleetness</span><span class=\"arc-tag\">S · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 44%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi maydonda turgan sari hujum kuchi besh martagacha yig‘iladi. Maydondan chiqqanda yig‘im yo‘qoladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/fluff-of-fleetness\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_BoxingCandy",
+      "title": "Fluff of Fortitude",
+      "url": "/arclar.html?q=Fluff%20of%20Fortitude#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Fluff of Fortitude\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/24.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Fluff of Fortitude</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasining umumiy zararini oshiradi. Joni 50 foizdan past raqiblarga qarshi bonus kuchliroq bo‘ladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/fluff-of-fortitude\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_mofeikesi",
+      "title": "Good Boy's Grand Adventure",
+      "url": "/arclar.html?q=Good%20Boy's%20Grand%20Adventure#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Good Boy&#x27;s Grand Adventure\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/25.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Good Boy&#x27;s Grand Adventure</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>474</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 45%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Energiya yig‘ish samarasini oshiradi. Yakuniy ko‘nikmadan keyin jamoa hujum kuchi ortadi. Ko‘nikma raqiblarni nazorat ostiga olsa, yana qo‘shimcha bonus beriladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/good-boys-grand-adventure\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_PoliceRat",
+      "title": "Hethereau's Keeper",
+      "url": "/arclar.html?q=Hethereau's%20Keeper#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Hethereau&#x27;s Keeper\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/26.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Hethereau&#x27;s Keeper</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchi va bosslarga yetkaziladigan zararni oshiradi. Arc ko‘nikmasi jangda takroriy zarba beradigan Officer Whisker’ni chaqiradi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/hethereaus-keeper\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Time",
+      "title": "Marching Beyond Time",
+      "url": "/arclar.html?q=Marching%20Beyond%20Time#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Marching Beyond Time\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/27.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Marching Beyond Time</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Faol ko‘nikma maxsus holatni ochadi, jamoadoshlar esa ko‘nikma ishlatib uchtagacha yig‘im hosil qiladi. Yakuniy ko‘nikma bu yig‘imlarni kritik zararga aylantiradi. Uch yig‘im sarflansa, himoyani chetlab o‘tish bonusi ham beriladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/marching-beyond-time\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_lingganzhongjiezhe",
+      "title": "Mind Royale",
+      "url": "/arclar.html?q=Mind%20Royale#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Mind Royale\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/28.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Mind Royale</span><span class=\"arc-tag\">A · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>555</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Bardoshni sindirish kuchi 60</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikma ishlatilganda yakuniy ko‘nikma energiyasini tiklaydi. Qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/mind-royale\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_oulaquantao",
+      "title": "Oraora!",
+      "url": "/arclar.html?q=Oraora!#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Oraora!\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/29.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Oraora!</span><span class=\"arc-tag\">A · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>395</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 37.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Har oddiy zarbadan keyin oddiy hujum zarari oshadi va o‘n martagacha yig‘iladi. Har bir yig‘imning muddati alohida hisoblanadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/oraora\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_wushoutieyu",
+      "title": "Raging Flames",
+      "url": "/arclar.html?q=Raging%20Flames#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Raging Flames\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/30.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Raging Flames</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>666</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Lakshana zararini oshiradi. Yakuniy ko‘nikmadan keyin faol va yakuniy ko‘nikmalar kuchayadi. Keyingi faol ko‘nikmalar bonusi ikki martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/raging-flames\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_DemonBlade",
+      "title": "Ravenous Blade",
+      "url": "/arclar.html?q=Ravenous%20Blade#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Ravenous Blade\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/31.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Ravenous Blade</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Kritik zarba ehtimolini oshiradi. Incantation zarari yetkazilganda kritik zarar bonusi yetti martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/ravenous-blade\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_TigerTally",
+      "title": "Ready-Ready",
+      "url": "/arclar.html?q=Ready-Ready#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Ready-Ready\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/32.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Ready-Ready</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Faol yoki yakuniy ko‘nikmadan keyin oddiy hujum va aniq javob zarbasi kuchayadi. Ikkala ko‘nikma bergan tumorlar vaqtida birlashsa, bosslarga zarar bonusi ochiladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/ready-ready\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Butterfly",
+      "title": "Reality Refuge",
+      "url": "/arclar.html?q=Reality%20Refuge#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Reality Refuge\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/33.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Reality Refuge</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 30%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Anima va biriktirma zararini oshiradi. Yakuniy ko‘nikmadan keyin biriktirma zarar bonusi vaqtincha kuchayadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/reality-refuge\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_jiaojuan",
+      "title": "Shiny Days",
+      "url": "/arclar.html?q=Shiny%20Days#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Shiny Days\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/34.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Shiny Days</span><span class=\"arc-tag\">A · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Bardoshni sindirish kuchini oshiradi. Bardoshi singan raqiblar ko‘proq zarar oladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/shiny-days\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Whale",
+      "title": "Song of the Whale",
+      "url": "/arclar.html?q=Song%20of%20the%20Whale#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Song of the Whale\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/35.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Song of the Whale</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchi va bardoshi singan raqiblarga zararni oshiradi. Shunday raqib yengilsa, egasining joni tiklanadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/song-of-the-whale\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_moon",
+      "title": "Stellar Veil",
+      "url": "/arclar.html?q=Stellar%20Veil#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Stellar Veil\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/36.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Stellar Veil</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Psyche zararini oshiradi. Psyche zarbasi tekkanda kritik zarar bonusi o‘n martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/stellar-veil\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_NestBird",
+      "title": "Tears Beneath the Mask",
+      "url": "/arclar.html?q=Tears%20Beneath%20the%20Mask#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Tears Beneath the Mask\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/37.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Tears Beneath the Mask</span><span class=\"arc-tag\">S · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 27.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Yakuniy ko‘nikma tekkan raqiblarni belgilaydi. Belgilangan raqiblar 20 soniya davomida 18 foiz kamroq zarar yetkazadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/tears-beneath-the-mask\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_snowman",
+      "title": "The Fools' Spring",
+      "url": "/arclar.html?q=The%20Fools'%20Spring#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Fools&#x27; Spring\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/38.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Fools&#x27; Spring</span><span class=\"arc-tag\">A · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>395</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Himoya 52.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi qalqon bilan himoyalangan paytda hujum kuchi oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-fools-spring\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_wuhuakuang",
+      "title": "The Forgotten",
+      "url": "/arclar.html?q=The%20Forgotten#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Forgotten\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/39.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Forgotten</span><span class=\"arc-tag\">A · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi joni 50 foizdan yuqori bo‘lsa, hujum kuchi oshadi. Joni 50 foizdan past bo‘lsa, himoyasi oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-forgotten\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_BitterCake",
+      "title": "The Good, The Bad, The Bitter",
+      "url": "/arclar.html?q=The%20Good%2C%20The%20Bad%2C%20The%20Bitter#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Good, The Bad, The Bitter\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/40.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Good, The Bad, The Bitter</span><span class=\"arc-tag\">A · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Egasi zarar olganda himoyasi vaqtincha oshadi. Qayta ishlash oralig‘i bor.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-good-the-bad-the-bitter\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_tuansanlang",
+      "title": "The Great Thief",
+      "url": "/arclar.html?q=The%20Great%20Thief#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Great Thief\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/41.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Great Thief</span><span class=\"arc-tag\">A · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Bardoshni sindirish kuchi 120</dd></div></dl><p><strong>Passiv ta’siri:</strong> Jamoada egasiga mos Esper turidan kamida uch kishi bo‘lsa, shu turdagi personajlarning bardoshni sindirish kuchi oshadi. Bonuslar yig‘ilmaydi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-great-thief\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Rose",
+      "title": "The Last Rose",
+      "url": "/arclar.html?q=The%20Last%20Rose#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Last Rose\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/42.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Last Rose</span><span class=\"arc-tag\">S · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Vaqt davomida zarar berish kritik zarar yig‘imlarini hosil qiladi, faol ko‘nikma esa o‘nta yig‘imni darhol beradi. Bardoshi singan raqibga zarar yetkazish shu holatni bir marta uzaytirishi mumkin.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-last-rose\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_worldrain",
+      "title": "The Rain That Shook the World",
+      "url": "/arclar.html?q=The%20Rain%20That%20Shook%20the%20World#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Rain That Shook the World\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/43.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Rain That Shook the World</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 22%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol va yakuniy ko‘nikmalarning Cosmos zararini oshiradi. Faol ko‘nikmadan keyin sikl kuchi ham vaqtincha ortadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-rain-that-shook-the-world\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Door",
+      "title": "The Wrong Gate",
+      "url": "/arclar.html?q=The%20Wrong%20Gate#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"The Wrong Gate\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/44.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">The Wrong Gate</span><span class=\"arc-tag\">S · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 30%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchini oshiradi. Egasi jon tiklaganda uning Anima zarari va jamoadoshlarning umumiy zarari vaqtincha oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/the-wrong-gate\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Crowbar",
+      "title": "Time Bandit",
+      "url": "/arclar.html?q=Time%20Bandit#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Time Bandit\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/45.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Time Bandit</span><span class=\"arc-tag\">A · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Jon 25%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikmadan keyin bardoshni sindirish kuchi vaqtincha oshadi. Arc ko‘nikmasi yaqin qulfli obyektlarni ochadigan Picky’ni chaqiradi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/time-bandit\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_yuren",
+      "title": "Umbrella",
+      "url": "/arclar.html?q=Umbrella#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Umbrella\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/46.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Umbrella</span><span class=\"arc-tag\">A · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>395</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Himoya 52.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Jon miqdorini oshiradi. Egasi joni 50 foizdan yuqori bo‘lsa, qalqonlari kuchayadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/umbrella\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Prokaryon",
+      "title": "Us.",
+      "url": "/arclar.html?q=Us.#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Us.\" data-location-category=\"B\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/47.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Us.</span><span class=\"arc-tag\">B · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>380</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 20%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Oddiy hujum zararini oshiradi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/us\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_GoldRecord",
+      "title": "Voice of the Voyager",
+      "url": "/arclar.html?q=Voice%20of%20the%20Voyager#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Voice of the Voyager\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/48.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Voice of the Voyager</span><span class=\"arc-tag\">S · Plazma</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Hujum kuchi va yordamchi ko‘nikmaning kritik zararini oshiradi. Yordamchi ko‘nikma zarar yetkazganda yakuniy ko‘nikma kritik zarari uch martagacha yig‘iladi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/voice-of-the-voyager\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Kite",
+      "title": "Watch Your Heads!",
+      "url": "/arclar.html?q=Watch%20Your%20Heads!#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Watch Your Heads!\" data-location-category=\"A\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/49.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Watch Your Heads!</span><span class=\"arc-tag\">A · Gaz</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>475</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarar 40%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Faol ko‘nikmadan keyin hujum kuchi ortadi. Remora yoki Stain ta’siridagi raqiblarga Lakshana zarari ham oshadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/watch-your-heads\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_GoldWool",
+      "title": "What's Desired",
+      "url": "/arclar.html?q=What's%20Desired#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"What&#x27;s Desired\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/50.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">What&#x27;s Desired</span><span class=\"arc-tag\">S · Kondensat</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Kritik zarba ehtimoli 24%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Lakshana zararini oshiradi. Faol yoki yakuniy ko‘nikma ishlatilganda kritik zarar vaqtincha ortadi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/whats-desired\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_Nakupeda",
+      "title": "Your Happiness is Priceless",
+      "url": "/arclar.html?q=Your%20Happiness%20is%20Priceless#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Your Happiness is Priceless\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/51.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Your Happiness is Priceless</span><span class=\"arc-tag\">S · Qattiq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>512</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Himoya 38.5%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Jon miqdorini oshiradi. Yakuniy ko‘nikma tasodifan uch ta’sirdan birini ishga tushiradi: joni eng past jamoadoshni davolash, qalqon berish yoki butun jamoa jonini tiklash.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/your-happiness-is-priceless\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    },
+    {
+      "id": "arc_fork_BlackBook",
+      "title": "Youthful Fantasy",
+      "url": "/arclar.html?q=Youthful%20Fantasy#arc-katalogi",
+      "markup": "<li data-catalog-item data-catalog-label=\"Youthful Fantasy\" data-location-category=\"S\"><details class=\"arc-entry\"><summary><img src=\"/assets/arcs/52.webp\" width=\"48\" height=\"48\" loading=\"lazy\" alt=\"\"><span class=\"arc-name\">Youthful Fantasy</span><span class=\"arc-tag\">S · Suyuq</span></summary><div class=\"arc-detail\"><dl><div><dt>Asosiy hujum kuchi</dt><dd>570</dd></div><div><dt>Qo‘shimcha ko‘rsatkich</dt><dd>Hujum kuchi 30%</dd></div></dl><p><strong>Passiv ta’siri:</strong> Bardoshni sindirish kuchini oshiradi. Jamoa ikki marta yordamchi ko‘nikma ishlatgach, Black Tome chaqirish mumkin. U belgilagan raqiblar ko‘proq Chaos zarari oladi va bardoshi kamayganda qo‘shimcha zarar ko‘radi.</p><p><a href=\"https://www.icy-veins.com/neverness-to-everness/weapons/youthful-fantasy\">Ko‘rsatkichlar manbasi</a></p></div></details></li>"
+    }
+  ]
+}

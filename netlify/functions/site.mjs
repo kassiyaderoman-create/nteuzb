@@ -4,7 +4,8 @@ import worker from "../../.netlify-site/worker.mjs";
 export const config = {path: [
   "/", "/index.html", "/admin", "/admin/", "/admin.html",
   "/yangiliklar.html", "/videolar.html", "/jamoa.html",
-  "/promokodlar", "/promokodlar/", "/promokodlar.html", "/missiya-videolari.json",
+  "/personajlar.html", "/arclar.html", "/katalog.html", "/personaj-:slug.html",
+  "/promokodlar", "/promokodlar/", "/promokodlar.html", "/missiya-videolari.json", "/reyting-versiyasi.json",
 ], preferStatic: false};
 const routes = config.path;
 
@@ -25,7 +26,7 @@ function bucket(store) {
 
 export default async function handler(request) {
   const path = new URL(request.url).pathname;
-  if (!routes.includes(path)) return new Response("Sahifa topilmadi.", {status: 404});
+  if (!routes.includes(path) && !/^\/personaj-[a-z0-9-]+\.html$/.test(path)) return new Response("Sahifa topilmadi.", {status: 404});
   const password = process.env.NTE_ADMIN_PASSWORD;
   return worker.fetch(request, {
     BUCKET: bucket(getStore({name: "nteuzb-content", consistency: "strong"})),

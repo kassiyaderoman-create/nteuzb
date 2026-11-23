@@ -24,7 +24,13 @@ function updateTeam() {
     const row = document.createElement("li");
     const link = document.createElement("a");
     link.href = "/personaj-" + slot.value + ".html";
-    link.textContent = slot.selectedOptions[0].textContent;
+    const portrait = document.createElement("img");
+    portrait.src = "/assets/team-portraits/" + slot.value + ".webp";
+    portrait.alt = "";
+    portrait.loading = "lazy";
+    const name = document.createElement("span");
+    name.textContent = slot.selectedOptions[0].textContent;
+    link.append(portrait, name);
     link.className = "text-link";
     row.append(link);
     profiles.append(row);
@@ -65,3 +71,74 @@ planner.querySelector("#team-share").addEventListener("click", async () => {
   }
 });
 updateTeam();
+
+const roster = planner.querySelector("#team-owned-list");
+const recommendation = planner.querySelector("#team-recommendation");
+const presets = window.nteTeamPresets;
+const rosterKey = "nteuzb.team-owned";
+let owned = new Set();
+try {
+  const stored = JSON.parse(localStorage.getItem(rosterKey) ?? "[]");
+  if (Array.isArray(stored)) owned = new Set(stored);
+} catch {}
+
+const labels = new Map([...slots[0].options]
+  .filter(option => option.value)
+  .map(option => [option.value, option.textContent]));
+
+function recommendTeam() {
+  recommendation.replaceChildren();
+  if (!owned.size) return;
+  const scores = presets.map(preset => {
+    const used = new Set(preset.members.map(character));
+    const matched = preset.members.map(id => {
+      const direct = [...owned].find(value => character(value) === character(id));
+      if (direct) return direct;
+      const alternate = preset.replacements[id]?.find(value => owned.has(value) && !used.has(character(value)));
+      if (alternate) used.add(character(alternate));
+      return alternate ?? "";
+    });
+    return {preset, matched, count: matched.filter(Boolean).length,
+      direct: matched.filter((id, index) => id && character(id) === character(preset.members[index])).length};
+  }).sort((a, b) => b.count - a.count || b.direct - a.direct);
+  const best = scores[0];
+  if (!best.count) {
+    recommendation.textContent = "Belgilangan personajlar orasida tayyor tarkibga mos keladigani hozircha topilmadi.";
+    return;
+  }
+  const heading = document.createElement("h3");
+  heading.textContent = best.preset.title + " · " + best.count + "/4 sizda bor";
+  const reason = document.createElement("p");
+  reason.textContent = best.preset.why;
+  const detail = document.createElement("p");
+  const missing = best.preset.members.filter((_, index) => !best.matched[index]);
+  const alternatives = best.matched.flatMap((id, index) => id && character(id) !== character(best.preset.members[index])
+    ? [labels.get(best.preset.members[index]) + " o‘rniga " + labels.get(id)] : []);
+  detail.textContent = [missing.length ? "Yetishmaydi — " + missing.map(id => labels.get(id)).join(", ") : "",
+    alternatives.length ? "Muqobil — " + alternatives.join(", ") : ""].filter(Boolean).join(". ");
+  const apply = document.createElement("button");
+  apply.type = "button";
+  apply.className = "button secondary";
+  apply.textContent = "Mos personajlarni tarkibga qo‘yish";
+  apply.addEventListener("click", () => {
+    slots.forEach((slot, index) => { slot.value = best.matched[index]; });
+    updateTeam();
+  });
+  recommendation.append(heading, reason, detail, apply);
+}
+
+for (const [id, name] of labels) {
+  const label = document.createElement("label");
+  const checkbox = document.createElement("input");
+  checkbox.type = "checkbox";
+  checkbox.checked = owned.has(id);
+  checkbox.addEventListener("change", () => {
+    if (checkbox.checked) owned.add(id);
+    else owned.delete(id);
+    try { localStorage.setItem(rosterKey, JSON.stringify([...owned])); } catch {}
+    recommendTeam();
+  });
+  label.append(checkbox, name);
+  roster.append(label);
+}
+recommendTeam();

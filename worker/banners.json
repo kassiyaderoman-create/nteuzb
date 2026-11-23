@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Elyms",
+    "description": "1.5 versiyasidagi cheklangan S darajali personaj.",
+    "start": "2026-11-11T08:00",
+    "end": "2026-12-02T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/characters/elyms.webp",
+    "imageAlt": "Elyms portreti"
+  },
+  {
+    "title": "Shinku",
+    "description": "Before the Dawn cheklangan taxtasiga qaytgan personaj.",
+    "start": "2026-11-11T08:00",
+    "end": "2026-12-02T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/characters/shinku.webp",
+    "imageAlt": "Shinku portreti"
+  },
+  {
+    "title": "Echoes on Hold",
+    "description": "Echo Special dasturidagi cheklangan Arc.",
+    "start": "2026-11-11T08:00",
+    "end": "2026-12-02T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/arcs/15.webp",
+    "imageAlt": "Echoes on Hold Arc belgisi"
+  },
+  {
+    "title": "Blushing Mirage",
+    "description": "Resolve Special dasturiga qaytgan cheklangan Arc.",
+    "start": "2026-11-11T08:00",
+    "end": "2026-12-02T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/arcs/4.webp",
+    "imageAlt": "Blushing Mirage Arc belgisi"
+  },
+  {
+    "title": "Circle Gifts",
+    "description": "Jami yetti kun kirish orqali Solid Dice mukofotini olish tadbiri.",
+    "start": "2026-11-11T08:00",
+    "end": "2026-12-23T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/first-steps/solid-dice.webp",
+    "imageAlt": "Circle Gifts mukofoti — Solid Dice"
+  },
+  {
+    "title": "Full Tank Ahead",
+    "description": "TerraX Iron Ogre bilan o‘tkaziladigan vaqtinchalik tadbir.",
+    "start": "2026-11-19T07:00",
+    "end": "2026-12-23T02:59",
+    "url": "https://nte.perfectworld.com/en/article/news/gamenews/20261109/264948.html",
+    "image": "/assets/news/version-15.webp",
+    "imageAlt": "1.5 versiyasining rasmiy muqovasi"
+  }
+]

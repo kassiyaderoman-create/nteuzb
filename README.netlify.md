@@ -23,3 +23,25 @@ Yangiliklar, qo‘llanmalar, rasmlar va mavjud video havolalari arxiv ichida. Ol
 ## Umumiy sahifa qismlarini tahrirlash
 
 Yuqori menyu, pastki qism va o‘rganish menyusi `templates/` papkasida. Sahifalarga bu qismlar build vaqtida qo‘shiladi. O‘zgarishni tekshirish uchun `npm run build` ni bajaring.
+
+## Yangiliklarni avtomatik yangilash
+
+Production deploy’da Netlify’dagi `sync-news` funksiyasi har 30 daqiqada rasmiy NTE lentasi va ochiq `@nteuzb` Telegram kanalini tekshiradi. Yangiliklar Netlify Blobs’da saqlanadi. Manba ishlamay qolsa, uning oxirgi muvaffaqiyatli nusxasi saqlanadi. Rasmiy xabarlarda asl sarlavha ham ko‘rinadi. Telegram rasmi topilmasa, saytning muqovasi ishlatiladi.
+
+Telegram’dagi oddiy matnli post yangiliklar sahifasiga tushadi. Jamoa ayni post ichida quyidagi tartibdan foydalansa, kontent tegishli bo‘limga ham tushadi:
+
+**Promokod** uchun sarlavha, alohida qatorda `#promokod`, `Kod: NAMUNAKOD` va `Muddati: YYYY-MM-DD`. Sana Toshkent vaqti bo‘yicha oxirgi amal qilish kuni. Bu format faqat haqiqiy muddat ma’lum bo‘lganda ishlatiladi.
+
+**Video** uchun sarlavha, alohida qatorda `#qollanma` va YouTube videosining havolasi.
+
+Deploy’dan so‘ng Netlify’dagi **Functions → sync-news** sahifasida funksiyani sinov tariqasida ishga tushiring va yangiliklar lentasini tekshiring.
+
+## Personaj va Arc katalogi
+
+Production deploy’da `sync-catalog` har ikki soatda The Hidden Gaming Lair ro‘yxatlarini tekshiradi. Yangi yozuvlar ID bo‘yicha katalog, qisqa profil va bosh sahifa qidiruviga qo‘shiladi. Katalog qisman yuklansa, oxirgi muvaffaqiyatli ma’lumot saqlanadi. O‘zbekcha kartalar `worker/catalog-curated.json` ichida, to‘liq tarjima qilingan personaj profillari esa `dist/` ichidagi alohida sahifalarda turadi. Yangilash vazifasi ularni qayta yozmaydi.
+
+## Profillar va banner taqvimi
+
+- `sync-catalog-facts` har soatda navbatdagi sakkiz yozuvning manbada mavjud darajasi, elementi, raqamlari va materiallar hisoblagichi havolasini tekshiradi. Manba bermagan maydon ekranda chiqmaydi. Birinchi to‘liq aylanish o‘n soatgacha davom etadi.
+- `/admin` dagi **Personaj yoki Arc profili** orqali rol, o‘zbekcha hikoya va yig‘ma tavsiyasini yozing. Ular manbadan olib kelinadigan texnik ma’lumotlardan alohida saqlanadi.
+- **Banner yoki tadbir** bo‘limida rasmiy manba havolasi va Toshkent vaqtidagi sanalarni kiriting. Bosh sahifa holatni avtomatik hisoblaydi. Dastlabki 1.5 taqvimi `worker/banners.json` ichida, aynan shu nom bilan panelda yaratilgan yozuv uning o‘rnida ko‘rinadi.

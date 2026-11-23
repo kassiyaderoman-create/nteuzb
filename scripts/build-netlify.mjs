@@ -8,7 +8,7 @@ await mkdir(".netlify-site", {recursive: true});
 const build = spawnSync(process.execPath, ["scripts/build.mjs", "--netlify"], {stdio: "inherit"});
 if (build.status !== 0) process.exit(build.status ?? 1);
 
-const excluded = new Set(["server", "admin.html", "promokodlar.html", "yangiliklar.html", "videolar.html", "jamoa.html"]);
+const excluded = new Set(["server", "admin.html", "promokodlar.html", "yangiliklar.html", "videolar.html", "jamoa.html", "personajlar.html", "arclar.html", "katalog.html"]);
 const root = resolve("dist");
 await cp(root, ".netlify-site/public", {
   recursive: true,

@@ -29,7 +29,8 @@ for (const catalog of document.querySelectorAll("[data-catalog]")) {
   if (input.id === "arc-search") {
     input.value = (new URLSearchParams(location.search).get("q") ?? "").slice(0, 120);
     const selected = entries.find((item) => normalizeCatalog(item.dataset.catalogLabel) === normalizeCatalog(input.value));
-    if (selected) selected.querySelector("details").open = true;
+    const details = selected?.querySelector("details");
+    if (details) details.open = true;
   }
   input.addEventListener("input", update);
   category?.addEventListener("change", update);
@@ -86,6 +87,15 @@ if (missionForm && window.nteMissionCatalog) {
     cards.className = "social";
     for (const item of items) {
       const card = link("", item.url);
+      if (item.image) {
+        const image = document.createElement("img");
+        image.className = "mission-video-preview";
+        image.src = item.image;
+        image.alt = "";
+        image.loading = "lazy";
+        image.decoding = "async";
+        card.append(image);
+      }
       const title = document.createElement("strong");
       title.textContent = item.title;
       const description = document.createElement("span");
@@ -127,7 +137,11 @@ if (missionForm && window.nteMissionCatalog) {
         entry.append(stepTitle, explanation, figure);
         steps.append(entry);
       }
-      details.append(title, steps, link("Manba va skrinshotlar: PowerPyx", item.url, "text-link"));
+      details.append(title);
+      if (item.mapId) {
+        details.append(link("Xaritada ko‘rish", "/interaktiv-xarita.html?joy=" + encodeURIComponent(item.mapId) + "#interactive-map-detail", "button secondary"));
+      }
+      details.append(steps, link("Manba va skrinshotlar: PowerPyx", item.url, "text-link"));
       results.append(details);
     }
   }
@@ -146,7 +160,9 @@ if (missionForm && window.nteMissionCatalog) {
 
     const relevant = available.filter((item) => [item.title, ...(item.aliases ?? [])]
       .some((name) => matchesCatalog(name, query))).slice(0, 8);
-    const solutions = guides.filter((item) => [item.title, ...item.aliases].some((name) => matchesCatalog(name, query)));
+    const solutions = guides.filter((item) => matchesCatalog([
+      item.title, ...item.aliases, ...item.steps.flatMap((step) => [step.title, step.text, step.alt]),
+    ].join(" "), query));
     const unique = new Map();
     for (const item of quests) {
       if (matchesCatalog(item.title, query) && !unique.has(item.title)) unique.set(item.title, item);

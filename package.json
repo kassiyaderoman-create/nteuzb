@@ -9,6 +9,8 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@netlify/blobs": "11.1.9"
+    "@netlify/blobs": "11.1.9",
+    "cheerio": "1.2.0",
+    "json5": "2.2.3"
   }
 }

@@ -144,12 +144,13 @@
     "image": "/assets/news/game-awards.webp"
   },
   {
-    "title": "Jamoa o‘zbekcha videoqo‘llanma tayyorlamoqda",
-    "description": "Kanalda o‘yinni boshlash, Fons, personajlar va grafika sozlamalari bo‘yicha reja e’lon qilindi.",
+    "title": "NTE boshlovchilari uchun o‘zbekcha videoqo‘llanma",
+    "description": "nteuzb jamoasining NTE’ni endi boshlayotganlar uchun o‘zbekcha qo‘llanmasini YouTube’da tomosha qiling.",
     "label": "Jamoa",
-    "date": "2026-11-17",
-    "url": "https://t.me/nteuzb/138",
-    "source": "Telegram postini ochish",
-    "image": "/assets/news/videoqollanma.webp"
+    "date": "2026-11-22",
+    "url": "https://www.youtube.com/watch?v=npFfF2iNJMY",
+    "source": "YouTube’da tomosha qilish",
+    "image": "/assets/nteuzb-beginner-video.webp",
+    "newTab": true
   }
 ]

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1019">
+<meta name="description" content="Hethereauda manzil topish, materiallarni hisoblash va topilmalarni belgilash.">
+<title>nteuzb | Hethereau interaktiv xaritasi</title>
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<script src="/theme.js"></script>
+<link rel="stylesheet" href="/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="/style.css">
+<script src="site.js" defer></script>
+<script src="/vendor/leaflet/leaflet.js" defer></script>
+<script src="/map-places.js" defer></script>
+<script src="/interactive-map.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Asosiy mazmunga o‘tish</a>
+<!-- SITE_HEADER /organish.html:true -->
+<main id="main" class="interactive-map-page">
+  <!-- LEARNING_NAV /interaktiv-xarita.html:page -->
+  <section class="shell interactive-map-intro" aria-labelledby="interactive-map-title">
+    <h1 id="interactive-map-title">Hethereau xaritasi</h1>
+    <a class="text-link" href="/xarita.html">Xarita vositalari va qo‘llanma</a>
+  </section>
+  <section class="shell interactive-map-workspace" aria-label="Joylar va Hethereau xaritasi">
+    <aside class="interactive-map-sidebar" aria-label="Joylarni qidirish">
+      <div class="interactive-map-filters">
+        <label for="interactive-map-query">Joy nomi yoki missiya</label>
+        <input id="interactive-map-query" type="search" placeholder="Masalan, Misty yoki taksi">
+        <label for="interactive-map-district">Tuman</label>
+        <select id="interactive-map-district">
+          <option value="">Barcha tumanlar</option>
+          <option value="bridge-crossings">Bridge Crossings</option>
+        </select>
+        <label for="interactive-map-type">Joy turi</label>
+        <select id="interactive-map-type">
+          <option value="">Barcha joylar</option>
+          <option value="missions">Missiyalar</option><option value="travel">Transport</option>
+          <option value="anomalies">Anomaliyalar</option><option value="places">Diqqatga sazovor joylar</option>
+          <option value="crates">Sandiqlar</option><option value="services">Xizmatlar</option><option value="photos">Surat joylari</option>
+        </select>
+      </div>
+      <p id="interactive-map-status" role="status"></p>
+      <ul id="interactive-map-results"></ul>
+    </aside>
+    <div class="interactive-map-surface">
+      <div class="interactive-map-viewport">
+        <div id="interactive-map" aria-label="Hethereau interaktiv xaritasi"></div>
+        <div class="interactive-map-controls" aria-label="Xaritani boshqarish">
+          <button type="button" id="map-plus" aria-label="Xaritani kattalashtirish">+</button>
+          <button type="button" id="map-minus" aria-label="Xaritani kichraytirish">−</button>
+          <button type="button" id="map-reset">Markazga</button>
+        </div>
+        <p id="interactive-map-error" class="interactive-map-error" role="status" hidden>Xarita tasviri yuklanmadi. Joylar ro‘yxatidan qo‘llanma yoki manbani ochishingiz mumkin.</p>
+      </div>
+      <div id="interactive-map-legend" class="map-legend" role="group" aria-label="Xarita belgilari"></div>
+      <p class="interactive-map-credit">Xarita tasviri, belgilar va koordinatalar <a class="text-link" href="https://nte.th.gl/maps/Hethereau" target="_blank" rel="noopener noreferrer">The Hidden Gaming Lair</a> manbasidan.</p>
+      <article id="interactive-map-detail" class="interactive-map-detail" aria-label="Tanlangan joy" hidden></article>
+    </div>
+    <noscript><p>Xaritani boshqarish uchun JavaScript’ni yoqing. <a class="text-link" href="/xarita.html">Joylar qo‘llanmasiga o‘tish</a>.</p></noscript>
+  </section>
+</main>
+<!-- SITE_FOOTER -->
+</body>
+</html>

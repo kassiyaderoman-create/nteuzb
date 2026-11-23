@@ -9,6 +9,7 @@ const types = {
   ".webp": "image/webp",
   ".png": "image/png",
   ".svg": "image/svg+xml",
+  ".txt": "text/plain; charset=utf-8",
 };
 
 async function readAssets(directory, prefix = "") {
@@ -31,27 +32,13 @@ async function readAssets(directory, prefix = "") {
   return result;
 }
 
-function decodeTitle(value) {
-  const entities = {"&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#x27;": "'", "&#39;": "'"};
-  return value.replace(/&(?:amp|lt|gt|quot|#x27|#39);/g, (entity) => entities[entity]);
-}
-
 function buildSearchIndex(assets) {
-  const roster = assets["/personajlar.html"][1];
-  const arcs = assets["/arclar.html"][1];
-  const characters = [...roster.matchAll(/data-catalog-item href="(\/personaj-[^"]+\.html)"[^>]*>[\s\S]*?<h2>([^<]+)<\/h2>/g)]
-    .map(([, url, title]) => ({title: decodeTitle(title), url}));
-  const weapons = [...arcs.matchAll(/<span class="arc-name">([^<]+)<\/span>/g)]
-    .map(([, name]) => {
-      const title = decodeTitle(name);
-      return {title, url: "/arclar.html?q=" + encodeURIComponent(title) + "#arc-katalogi"};
-    });
   const missionSource = assets["/mission-catalog.js"][1];
   const {quests, guides, videos} = JSON.parse(missionSource.trim().replace(/^window\.nteMissionCatalog = /, "").replace(/;$/, ""));
-  if (!characters.length || !weapons.length || !quests.length) {
+  if (!quests.length) {
     throw new Error("Homepage search index is missing a catalog.");
   }
-  return {characters, weapons, quests, guides, videos};
+  return {quests, guides, videos};
 }
 
 await mkdir("dist/server", {recursive: true});
@@ -59,12 +46,18 @@ const assets = await readAssets("dist");
 const searchIndex = buildSearchIndex(assets);
 const curatedNews = JSON.parse(await readFile("worker/news.json", "utf8"));
 const source = await readFile("worker/index.mjs", "utf8");
+const bannerSeed = JSON.parse(await readFile("worker/banners.json", "utf8"));
+const catalogSeed = JSON.parse(await readFile("worker/catalog-seed.json", "utf8"));
+const catalogCurated = JSON.parse(await readFile("worker/catalog-curated.json", "utf8"));
 const netlify = process.argv.includes("--netlify");
 const runtimeAssets = netlify
-  ? Object.fromEntries(["/index.html", "/admin.html", "/yangiliklar.html", "/promokodlar.html", "/videolar.html", "/jamoa.html"]
+  ? Object.fromEntries(["/index.html", "/admin.html", "/yangiliklar.html", "/promokodlar.html", "/videolar.html", "/jamoa.html", "/personajlar.html", "/arclar.html", "/katalog.html", ...catalogCurated.characters.map(item => item.url)]
     .map((path) => [path, assets[path]]))
   : assets;
 await writeFile(netlify ? ".netlify-site/worker.mjs" : "dist/server/index.js",
   "const assets = " + JSON.stringify(runtimeAssets) +
   ";\nconst searchIndex = " + JSON.stringify(searchIndex) +
-  ";\nconst curatedNews = " + JSON.stringify(curatedNews) + ";\n" + source);
+  ";\nconst curatedNews = " + JSON.stringify(curatedNews) +
+  ";\nconst catalogSeed = " + JSON.stringify(catalogSeed) +
+  ";\nconst catalogCurated = " + JSON.stringify(catalogCurated) +
+  ";\nconst bannerSeed = " + JSON.stringify(bannerSeed) + ";\n" + source);
