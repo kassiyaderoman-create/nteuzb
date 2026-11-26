@@ -26,7 +26,9 @@ Yuqori menyu, pastki qism va o‘rganish menyusi `templates/` papkasida. Sahifal
 
 ## Yangiliklarni avtomatik yangilash
 
-Production deploy’da Netlify’dagi `sync-news` funksiyasi har 30 daqiqada rasmiy NTE lentasi va ochiq `@nteuzb` Telegram kanalini tekshiradi. Yangiliklar Netlify Blobs’da saqlanadi. Manba ishlamay qolsa, uning oxirgi muvaffaqiyatli nusxasi saqlanadi. Rasmiy xabarlarda asl sarlavha ham ko‘rinadi. Telegram rasmi topilmasa, saytning muqovasi ishlatiladi.
+Production deploy’da Netlify’dagi `sync-news` funksiyasi har 30 daqiqada rasmiy NTE lentasi, Steam’dagi rasmiy o‘yin e’lonlari, ochiq `@nteuzb` Telegram kanali va Google News RSS lentasini tekshiradi. Yangiliklar Netlify Blobs’da saqlanadi. Manba ishlamay qolsa, uning oxirgi muvaffaqiyatli nusxasi saqlanadi. Rasmiy xabarlarda asl sarlavha ham ko‘rinadi. Telegram rasmi topilmasa, saytning muqovasi ishlatiladi.
+
+Google News orqali topilgan maqolalar `/admin` sahifasida ko‘rib chiqish uchun turadi. Manbani tekshirgach, «Yangilik» formasidan e’lon qiling. Ushbu manbalar uchun API kaliti talab qilinmaydi.
 
 Telegram’dagi oddiy matnli post yangiliklar sahifasiga tushadi. Jamoa ayni post ichida quyidagi tartibdan foydalansa, kontent tegishli bo‘limga ham tushadi:
 

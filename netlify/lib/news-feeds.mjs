@@ -54,6 +54,18 @@ export function telegramNews(markup) {
   return posts;
 }
 
+function classifyOfficial(title, event = false) {
+  const version = title.match(/\b(?:version|patch)\s+(\d+(?:\.\d+){1,2})\b/i)?.[1];
+  if (/maintenance/i.test(title)) return {title: "NTE texnik tanaffusi", label: "Texnik tanaffus"};
+  if (version && /update|patch notes/i.test(title)) {
+    return {title: "NTE " + version + " yangilanishi", label: "Yangilanish"};
+  }
+  if (event || /limited.time event|event announcement/i.test(title)) {
+    return {title: "NTE’ning rasmiy tadbir e’loni", label: "Tadbir"};
+  }
+  return {title: "NTE rasmiy xabari", label: "E’lon"};
+}
+
 export function officialNews(script) {
   const raw = script.match(/^\s*var\s+newsdataObj\s*=\s*([\s\S]*?)\s*;\s*$/)?.[1];
   if (!raw) throw new Error("Rasmiy lenta formati o‘zgargan");
@@ -62,14 +74,10 @@ export function officialNews(script) {
   return Object.values(channels).filter(Array.isArray).flat().flatMap((item) => {
     if (!/^\/en\/article\/news\/(?:gamenews|gamebroad|gameevent)\/\d{8}\/\d+\.html$/.test(item?.url ?? "") ||
         !/^\d{4}-\d{2}-\d{2}$/.test(item?.time ?? "") || typeof item?.title !== "string") return [];
-    const label = item.channelName === "gameevent" ? "Tadbir" : "E’lon";
-    const version = item.title.match(/\b(?:version|patch)\s+(\d+(?:\.\d+){1,2})\b/i)?.[1];
-    const update = version && item.channelName === "gamenews" && /update|patch notes/i.test(item.title);
-    const title = update ? "NTE " + version + " yangilanishi" :
-      label === "Tadbir" ? "NTE’ning rasmiy tadbir e’loni" : "NTE rasmiy xabari";
     return [{
-      title, description: "Asl sarlavha · " + text(item.title).slice(0, 190), date: item.time,
-      label: update ? "Yangilanish" : label, url: official + item.url,
+      ...classifyOfficial(item.title, item.channelName === "gameevent"),
+      description: "Asl sarlavha · " + text(item.title).slice(0, 190),
+      date: item.time, url: official + item.url,
       source: "Rasmiy xabarni ochish", newTab: true,
     }];
   });
@@ -84,4 +92,52 @@ export async function fetchOfficialNews() {
 
 export async function fetchTelegramNews() {
   return telegramNews(await read(telegram));
+}
+
+const steamApp = 4508340;
+const googleFeed = "https://news.google.com/rss/search?q=%22Neverness%20to%20Everness%22%20when%3A7d&hl=en-US&gl=US&ceid=US%3Aen";
+
+export function steamNews(payload) {
+  const app = payload?.appnews;
+  if (app?.appid !== steamApp || !Array.isArray(app.newsitems)) throw new Error("Steam lentasi topilmadi");
+  return app.newsitems.flatMap(item => {
+    const date = new Date(item.date * 1000);
+    if (item.feedname !== "steam_community_announcements" ||
+        item.appid !== steamApp || !/^\d{10,25}$/.test(item.gid ?? "") ||
+        typeof item.title !== "string" || !Number.isFinite(date.getTime())) return [];
+    return [{
+      ...classifyOfficial(item.title),
+      date: dateInTashkent.format(date),
+      description: "Asl sarlavha · " + text(item.title).slice(0, 190),
+      url: "https://store.steampowered.com/news/app/" + steamApp + "/view/" + item.gid,
+      source: "Steam’dagi rasmiy e’lonni ochish", newTab: true,
+    }];
+  });
+}
+
+export function discoveryNews(markup) {
+  const $ = load(markup, {xml: true});
+  if (!$("rss > channel").length) throw new Error("Google News RSS formati o‘zgargan");
+  return $("item").toArray().flatMap(element => {
+    const item = $(element);
+    const title = text(item.children("title").text());
+    const source = text(item.children("source").text());
+    const date = new Date(item.children("pubDate").text());
+    let url;
+    try { url = new URL(item.children("link").text().trim()); } catch { return []; }
+    if (url.origin !== "https://news.google.com" || url.username || url.password ||
+        !/^\/rss\/articles\/[A-Za-z0-9_-]+$/.test(url.pathname) ||
+        !title || !source || !Number.isFinite(date.getTime())) return [];
+    return [{title: title.slice(0, 180), source: source.slice(0, 90),
+      date: dateInTashkent.format(date), url: url.origin + url.pathname}];
+  }).slice(0, 30);
+}
+
+export async function fetchSteamNews() {
+  const url = "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=" + steamApp + "&count=30&maxlength=1";
+  return steamNews(JSON.parse(await read(url)));
+}
+
+export async function fetchDiscoveryNews() {
+  return discoveryNews(await read(googleFeed));
 }

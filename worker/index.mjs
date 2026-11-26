@@ -199,13 +199,23 @@ function parseTashkentTime(value) {
 }
 
 async function adminPage(env, message = "", status = 200) {
-  const profiles = await editableProfiles(env);
+  const [profiles, discoveries] = await Promise.all([
+    editableProfiles(env), readNewsFeed(env.BUCKET, "discovery"),
+  ]);
+  const candidates = discoveries.filter(item => safeUrl(item.url)).slice(0, 20).map(item =>
+    '<li><a class="text-link" target="_blank" rel="noopener noreferrer" href="' + htmlEscape(item.url) +
+    '">' + htmlEscape(item.title) + '</a> · ' + htmlEscape(item.source) +
+    ' · <time datetime="' + htmlEscape(item.date) + '">' + htmlEscape(item.date) + '</time></li>');
+  const review = '<section class="admin-group"><h2>Google News’dan topilgan xabarlar</h2>' +
+    '<p>Manbani tekshiring. Saytga qo‘shish uchun «Yangilik» formasida o‘zbekcha sarlavha va asl maqola havolasini kiriting.</p>' +
+    (candidates.length ? '<ul>' + candidates.join("") + '</ul>' : '<p>Hozircha tekshirish uchun xabar yo‘q.</p>') +
+    '</section>';
   const sections = await Promise.all(kinds.map(async (kind) => {
     const entries = await records(env.BUCKET, kind);
     const list = entries.map((item) => '<details><summary>' + htmlEscape(item.title) + '</summary>' + form(kind, item, profiles) + '</details>');
     return '<section class="admin-group"><h2>' + headings[kind] + '</h2>' + form(kind, null, profiles) + list.join("") + '</section>';
   }));
-  return render("/admin.html", (message ? '<p role="status" class="admin-note">' + htmlEscape(message) + '</p>' : '') + '<form method="post" action="/admin" class="admin-logout"><button class="button secondary" name="action" value="logout">Chiqish</button></form>' + sections.join(""), status);
+  return render("/admin.html", (message ? '<p role="status" class="admin-note">' + htmlEscape(message) + '</p>' : '') + '<form method="post" action="/admin" class="admin-logout"><button class="button secondary" name="action" value="logout">Chiqish</button></form>' + review + sections.join(""), status);
 }
 
 async function readAdminForm(request, env, url) {
@@ -368,7 +378,7 @@ async function loadNews(env) {
     } catch (error) {
       console.error("News storage unavailable", error);
     }
-    automatic = (await Promise.all(["official", "telegram"].map((name) => readNewsFeed(env.BUCKET, name)))).flat();
+    automatic = (await Promise.all(["official", "telegram", "steam"].map((name) => readNewsFeed(env.BUCKET, name)))).flat();
   }
   const local = updates.map((item) => ({
     ...item,
@@ -377,8 +387,18 @@ async function loadNews(env) {
     source: "Manbani ochish",
   }));
   const unique = new Map();
+  const officialHeadlines = new Set();
   for (const item of [...local, ...curatedNews, ...automatic]) {
-    if (!unique.has(item.url)) unique.set(item.url, item);
+    if (unique.has(item.url)) continue;
+    const isSteam = item.url.startsWith("https://store.steampowered.com/news/app/4508340/");
+    const isOfficial = item.url.startsWith("https://nte.perfectworld.com/");
+    if (isSteam || isOfficial) {
+      const headline = item.label === "Yangilanish" ? item.title.match(/\d+(?:\.\d+){1,2}/)?.[0] :
+        item.description?.startsWith("Asl sarlavha · ") ? item.description.toLowerCase() : null;
+      if (isSteam && headline && officialHeadlines.has(headline)) continue;
+      if (isOfficial && headline) officialHeadlines.add(headline);
+    }
+    unique.set(item.url, item);
   }
   return [...unique.values()].sort((a, b) => b.date.localeCompare(a.date));
 }

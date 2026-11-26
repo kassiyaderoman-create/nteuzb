@@ -1,11 +1,11 @@
 import { getStore } from "@netlify/blobs";
-import { fetchOfficialNews, fetchTelegramNews } from "../lib/news-feeds.mjs";
+import { fetchDiscoveryNews, fetchOfficialNews, fetchSteamNews, fetchTelegramNews } from "../lib/news-feeds.mjs";
 
 export const config = {schedule: "*/30 * * * *"};
 
 export default async function syncNews() {
   const store = getStore({name: "nteuzb-content", consistency: "strong"});
-  const feeds = {official: fetchOfficialNews, telegram: fetchTelegramNews};
+  const feeds = {official: fetchOfficialNews, telegram: fetchTelegramNews, steam: fetchSteamNews, discovery: fetchDiscoveryNews};
   const settled = await Promise.allSettled(Object.entries(feeds).map(async ([name, fetchNews]) => {
     const key = "feed/" + name;
     const [previous, latest] = await Promise.all([store.get(key, {type: "json"}), fetchNews()]);
